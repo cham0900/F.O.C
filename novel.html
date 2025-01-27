@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style/style-novel.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href='index.html'><img src="images/logoo.png" alt="Logo"></a>
+            </div>
+            <div class="header-links" >
+                <a href="#section1">NEW & TRENDING</a>
+                <a href="#section2">POPULARITY</a>
+                <a href="#section3">RECOMMEND</a>
+                <a href="#section4">FINISHED</a>
+            </div>
+        </nav>
+        <hr class="custom-hr">
+        <!-- 
+        <div style="display: flex; justify-content: center;">
+            <h1>XXXXXXXXXXXXXXXXXXXXXXXXXXXXX</h1>
+        </div> 
+        -->
+
+      
+    </header>
+    
+    <section id="section1">
+        <h1>ส่วนที่ 1</h1>
+        <p>นี่คือเนื้อหาของส่วนที่ 1</p>
+        <div class="container2">
+            <!-- คอลัมน์ซ้าย -->
+            <div class="left-column">
+                <img src="images/111.png" alt="ภาพตัวอย่าง">
+                <div class="details">
+                    <h2>11111111111</h2>
+                    <p>
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                    </p>
+                </div>
+            </div>
+        
+            <!-- คอลัมน์ขวา -->
+            <div class="right-column">
+                <h3>อันดับตามประเภท</h3>
+                <ul>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 1">
+                        <span>แกร์งใหญ่กลับ แต่ฆ่าไม่ได้</span>
+                        <small>HHAANN / LIMYE</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 2">
+                        <span>ชำแหละจะรอดโดยมิชชั่นแปลก</span>
+                        <small>GMAN / tangahuru</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 3">
+                        <span>ยอดสถาปนิกผู้พิทักษ์อาณาจักร</span>
+                        <small>Lee hyunmin / Kim Hyunsoo</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 4">
+                        <span>ปลุกพลังชีวิตหลอด</span>
+                        <small>Lee Ha-kyung / Lim Hyeong</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 5">
+                        <span>อ่านชะตาวันสิ้นโลก</span>
+                        <small>Sleepy-C / UMI</small>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="section2">
+        <h1>ส่วนที่ 2</h1>
+        <p>นี่คือเนื้อหาของส่วนที่ 2</p>
+        <div class="container2">
+            <!-- คอลัมน์ซ้าย -->
+            <div class="left-column">
+                <img src="images/111.png" alt="ภาพตัวอย่าง">
+                <div class="details">
+                    <h2>11111111111</h2>
+                    <p>
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                    </p>
+                </div>
+            </div>
+        
+            <!-- คอลัมน์ขวา -->
+            <div class="right-column">
+                <h3>อันดับตามประเภท</h3>
+                <ul>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 1">
+                        <span>แกร์งใหญ่กลับ แต่ฆ่าไม่ได้</span>
+                        <small>HHAANN / LIMYE</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 2">
+                        <span>ชำแหละจะรอดโดยมิชชั่นแปลก</span>
+                        <small>GMAN / tangahuru</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 3">
+                        <span>ยอดสถาปนิกผู้พิทักษ์อาณาจักร</span>
+                        <small>Lee hyunmin / Kim Hyunsoo</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 4">
+                        <span>ปลุกพลังชีวิตหลอด</span>
+                        <small>Lee Ha-kyung / Lim Hyeong</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 5">
+                        <span>อ่านชะตาวันสิ้นโลก</span>
+                        <small>Sleepy-C / UMI</small>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="section3">
+        <h1>ส่วนที่ 3</h1>
+        <p>นี่คือเนื้อหาของส่วนที่ 3</p>
+        <div class="container2">
+            <!-- คอลัมน์ซ้าย -->
+            <div class="left-column">
+                <img src="images/111.png" alt="ภาพตัวอย่าง">
+                <div class="details">
+                    <h2>11111111111</h2>
+                    <p>
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                    </p>
+                </div>
+            </div>
+        
+            <!-- คอลัมน์ขวา -->
+            <div class="right-column">
+                <h3>อันดับตามประเภท</h3>
+                <ul>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 1">
+                        <span>แกร์งใหญ่กลับ แต่ฆ่าไม่ได้</span>
+                        <small>HHAANN / LIMYE</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 2">
+                        <span>ชำแหละจะรอดโดยมิชชั่นแปลก</span>
+                        <small>GMAN / tangahuru</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 3">
+                        <span>ยอดสถาปนิกผู้พิทักษ์อาณาจักร</span>
+                        <small>Lee hyunmin / Kim Hyunsoo</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 4">
+                        <span>ปลุกพลังชีวิตหลอด</span>
+                        <small>Lee Ha-kyung / Lim Hyeong</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 5">
+                        <span>อ่านชะตาวันสิ้นโลก</span>
+                        <small>Sleepy-C / UMI</small>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="section4">
+        <h1>ส่วนที่ 4</h1>
+        <p>นี่คือเนื้อหาของส่วนที่ 4</p>
+        <div class="container2">
+            <!-- คอลัมน์ซ้าย -->
+            <div class="left-column">
+                <img src="images/111.png" alt="ภาพตัวอย่าง">
+                <div class="details">
+                    <h2>11111111111</h2>
+                    <p>
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                    </p>
+                </div>
+            </div>
+        
+            <!-- คอลัมน์ขวา -->
+            <div class="right-column">
+                <h3>อันดับตามประเภท</h3>
+                <ul>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 1">
+                        <span>แกร์งใหญ่กลับ แต่ฆ่าไม่ได้</span>
+                        <small>HHAANN / LIMYE</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 2">
+                        <span>ชำแหละจะรอดโดยมิชชั่นแปลก</span>
+                        <small>GMAN / tangahuru</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 3">
+                        <span>ยอดสถาปนิกผู้พิทักษ์อาณาจักร</span>
+                        <small>Lee hyunmin / Kim Hyunsoo</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 4">
+                        <span>ปลุกพลังชีวิตหลอด</span>
+                        <small>Lee Ha-kyung / Lim Hyeong</small>
+                    </li>
+                    <li>
+                        <img src="images/111.png" alt="ภาพที่ 5">
+                        <span>อ่านชะตาวันสิ้นโลก</span>
+                        <small>Sleepy-C / UMI</small>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+    <script>
+        // เพิ่ม Smooth Scroll ให้กับทุกลิงก์
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

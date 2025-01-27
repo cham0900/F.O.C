@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #9ccfff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    /* จัดแนวให้อยู่ตรงกลางในแนวตั้ง */
+
+    /* ระยะห่างระหว่างโลโก้และลิงก์ */
+}
+
+header {
+    background-color: #9ccfff;
+    padding: 10px 20px;
+    
+}
+.logo img {
+    width: 133px;
+    /* ขนาดโลโก้ */
+    height: auto;
+    /* รักษาสัดส่วน */
+}
+
+.logo {
+    margin: 20px 237px 0px 54px;
+    /* เพิ่มระยะห่างด้านหน้าของโลโก้ */
+}
+
+.header-links {
+    display: flex;
+    gap: 30px;
+    /* ระยะห่างระหว่างลิงก์ */
+}
+
+.header-links a {
+    text-decoration: none;
+    /* ลบเส้นใต้ */
+    text-transform: capitalize;
+    position: relative;
+    color: #256b8e;
+    /* สีข้อความ */
+    font-size: 20px;
+    /* ขนาดข้อความ */
+}
+
+.header-links a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #10415b;
+    margin: auto;
+    display: block;
+}
+
+.header-links a:hover::after {
+    width: 100%;
+    transition: width 0.32s linear;
+}
+
+.custom-hr {
+    border: none;
+    /* ลบเส้นขอบเริ่มต้น */
+    border-top: 3.5px solid #111a44;
+    /* เส้นขอบด้านบน */
+    margin: 11px 11;
+    /* ระยะห่างบน-ล่าง */
+}
+
+section {
+   height: auto;
+    /* ความสูงเต็มหน้าจอ */
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+ }
+        
+#widget {
+    background-color: #f4f4f4;
+    border: 2px solid #333;
+}
+
+.container2 {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+ .left-column {
+     flex: 2;
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     overflow: hidden;
+ }
+
+ .left-column img {
+     width: 50%;
+     height: auto;
+     display: block;
+     margin: auto;
+ }
+
+ .left-column .details {
+     padding: 20px;
+ }
+
+ .left-column h2 {
+     margin: 0;
+     font-size: 24px;
+     color: #333;
+ }
+
+ .left-column p {
+     margin: 10px 0 0;
+     line-height: 1.6;
+     color: #666;
+ }
+
+ .right-column {
+     flex: 1;
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+ }
+
+ .right-column h3 {
+     margin: 0 0 10px;
+     font-size: 20px;
+     color: #333;
+ }
+
+ .right-column ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .right-column ul li {
+     margin: 10px 0;
+     font-size: 16px;
+     color: #555;
+     display: flex;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .right-column ul li img {
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+ }
+
+ .right-column ul li span {
+     flex: 1;
+ }
+
+ .right-column ul li small {
+     color: #999;
+ }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+    <style>
+        .field {
+        height: 65px;
+        width: 100%;
+        margin-top: 20px;
+        position: relative;
+        }
+        .fieldd {
+        height: 95px;
+        width: 60%;
+        margin-top: 20px;
+        position: relative;
+        text-align: center
+        }
+
+        .field input {
+        height: 100%;
+        width: 60%;
+        outline: none;
+        font-size: 17px;
+        padding-left: 20px;
+        border: 1px solid #9ccfff;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        color: #000;
+        cursor: pointer;
+        }
+
+        .field input:focus,
+        form .field input:valid {
+        background-color: #cfe9ff;
+        }
+
+        .fieldd input {
+        height: 100%;
+        width: 60%;
+        outline: none;
+        font-size: 17px;
+        padding-left: 20px;
+        border: 1px solid #9ccfff;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        color: #fff;
+        background-color: #256b8e;
+        cursor: pointer;
+        }
+
+        .fieldd input:focus,
+        form .field input:valid {
+        background-color: #1c526d;
+        }
+        .header-buttons button {
+        background: #1c526d;
+        color: #fff;
+        border-radius: 40px;
+        transition: all 0.25s ease;
+        display: flex;
+        border: none; 
+        text-align: center;
+        cursor: pointer;
+        font-size: 27px; /* ขนาดข้อความใหญ่ขึ้น */
+        padding: 10px 20px;
+        margin: 60px 0px 0px 80px;
+}
+    
+        
+    </style>
+<body style="background-color: #9ccfff;">
+        <header>
+            <div class="header-buttons" >
+                <button onclick="window.location.href='index.html'"><i class='bx bx-chevron-left'></i></button>
+            </div>
+        </header>
+                <div style="text-align: center; margin-top:80px">
+                    <h1>Feed back</h1>
+                    <div class="field">
+                        <input type="text" id="feedback" name="feedback" placeholder=" " required>
+                    </div>
+                    <div class="fieldd" style="margin-top:60px; margin-left: 333px;">
+                        <input type="submit" name="submit">
+                    </div>
+                </div>
+</body>
+</html>

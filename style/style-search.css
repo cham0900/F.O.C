@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 30px 280px 0 280px;
+    font-family: Arial, sans-serif;
+    background-color: #9ccfff;
+    color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #25a3ff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.search-bar input::placeholder {
+    color: #111a44;
+}
+
+.search-bar button {
+    background-color: #111a44;
+    border: none;
+    color: #ffffff;
+    padding: 16px 15px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #20307b;
+}
+
+/* Trending Section */
+.trending h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.trending ol {
+    list-style: none;
+    padding: 0;
+}
+
+.trending li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.trending li span {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #111a44;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* Categories Section */
+.categories h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.category-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #111a44;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.category:hover {
+    background-color: #20307b;
+}
+
+.category i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.category p {
+    margin: 0;
+    font-size: 14px;
+}
+
+span {
+    color: #ffffff;
+}
+
+
+
+.header-buttons button {
+    background: #111a44;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    transition: all 0.25s ease;
+    padding: 4.5px 5px;
+    display: flex;
+    
+}
+
+.header-buttons i {
+    width: 40px;
+    height: auto;
+}
+
+button {
+    background: #111a44;
+    font-size: 25px;
+    cursor: pointer;
+    border: 0px;
+    position: relative;
+    margin: 20px px;
+    border-radius: 10px 10px;
+}
+
+button:hover {
+    background-color: #20307b;
+}
