@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webtoon Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo img {
+            width: 200px;
+            /* ขนาดโลโก้ */
+            height: auto;
+            /* รักษาสัดส่วน */
+        }
+
+        .logo {
+            margin: -20px 20px -10px 20px;
+            /* เพิ่มระยะห่างด้านหน้าของโลโก้ */
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 1200px;
+            width: 60%;
+        }
+
+        .banner img {
+            width: 50%;
+            object-fit: cover;
+        }
+
+        .banner-content {
+            padding: 20px;
+            width: 50%;
+        }
+
+        .banner-content h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #333;
+        }
+
+        .stats {
+            display: flex;
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .stats span {
+            background: #eee;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .episodes {
+            margin-top: 20px;
+            max-width: 1200px;
+            width: 60%;
+        }
+
+        .episode {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            margin: 10px 0;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .episode img {
+            height: 60px;
+            border-radius: 5px;
+        }
+
+        .episode-content {
+            flex: 1;
+            margin-left: 15px;
+        }
+
+        .episode-content h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .episode-date {
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href='index.html'><img src="images/logoo.png" alt="Logo"></a>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="banner">
+            <img src="https://via.placeholder.com/600x400" alt="Banner Image">
+            <div class="banner-content">
+                <h1>A Savage Proposal</h1>
+                <p>When the ruthless Lord Tiwakan seizes the kingdom of Nauk, Princess Liene Arsac faces an impossible
+                    choice...</p>
+                <div class="stats">
+                    <span>5.7M views</span>
+                    <span>594K likes</span>
+                    <span>7.81 rating</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="episodes">
+            <div class="episode">
+                <img src="https://via.placeholder.com/80" alt="Episode Thumbnail">
+                <div class="episode-content">
+                    <h3>Episode 13</h3>
+                    <p class="episode-date">Jan 27, 2025</p>
+                </div>
+                <span>15,428 likes</span>
+            </div>
+            <div class="episode">
+                <img src="https://via.placeholder.com/80" alt="Episode Thumbnail">
+                <div class="episode-content">
+                    <h3>Episode 12</h3>
+                    <p class="episode-date">Jan 20, 2025</p>
+                </div>
+                <span>17,552 likes</span>
+            </div>
+            <!-- Add more episodes as needed -->
+        </div>
+    </main>
+</body>
+
+</html>

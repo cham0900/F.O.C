@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style/style-toon.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href='index.html'><img src="images/logoo.png" alt="Logo"></a>
+            </div>
+            <div style="margin-left: auto">
+                <div class="header-buttons1" style="margin-right: 50px;">
+                    <button onclick="window.location.href='index.html'"><i class='bx bx-home-alt'></i></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+        <main class="main">
+            <div class="banner">
+                <img src="images/111.png" alt="Banner Image">
+                <div class="banner-content">
+                    <h1>A Savage Proposal</h1>
+                    <p>When the ruthless Lord Tiwakan seizes the kingdom of Nauk, Princess Liene Arsac faces an impossible
+                        choice...</p>
+                    <div class="stats">
+                        <span>5.7M views</span>
+                        <span>594K likes</span>
+                        <span>7.81 rating</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="episodes">
+                <a href="#">
+                    <div class="episode">
+                        <img src="images/111.png" alt="Episode Thumbnail">
+                        <div class="episode-content">
+                            <h3>Episode 5</h3>
+                            <p class="episode-date">Jan 27, 2025</p>
+                        </div>
+                        <span>15,428 likes</span>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="episode">
+                        <img src="images/111.png" alt="Episode Thumbnail">
+                        <div class="episode-content">
+                            <h3>Episode 4</h3>
+                            <p class="episode-date">Jan 20, 2025</p>
+                        </div>
+                        <span>17,552 likes</span>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="episode">
+                        <img src="images/111.png" alt="Episode Thumbnail">
+                        <div class="episode-content">
+                            <h3>Episode 3</h3>
+                            <p class="episode-date">Jan 20, 2025</p>
+                        </div>
+                        <span>17,552 likes</span>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="episode">
+                        <img src="images/111.png" alt="Episode Thumbnail">
+                        <div class="episode-content">
+                            <h3>Episode 2</h3>
+                            <p class="episode-date">Jan 20, 2025</p>
+                        </div>
+                        <span>17,552 likes</span>
+                    </div>
+                </a>
+
+                <a href="#">
+                <div class="episode">
+                    <img src="images/111.png" alt="Episode Thumbnail">
+                    <div class="episode-content">
+                        <h3>Episode 1</h3>
+                        <p class="episode-date">Jan 20, 2025</p>
+                    </div>
+                    <span>17,552 likes</span>
+                </div>
+                </a>
+                <!-- Add more episodes as needed -->
+            </div>
+        </main>
+
+    <div class="recommendation-section">
+        <h3>You may also like</h3>
+        <div class="recommendation-cards">
+            <div class="card">
+                <img src="images/111.png" alt="ShootAround">
+                <div class="card-content">
+                    <h4>ShootAround</h4>
+                    <p>suspu</p>
+                    <p class="views"><i class="bx bx-show"></i> 27.7M</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/111.png" alt="Rebirth">
+                <div class="card-content">
+                    <h4>Rebirth</h4>
+                    <p>Michi</p>
+                    <p class="views"><i class="bx bx-show"></i> 132.5M</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/111.png" alt="Yuna & Kawachan">
+                <div class="card-content">
+                    <h4>Yuna & Kawachan</h4>
+                    <p>Lauren Schmidt</p>
+                    <p class="views"><i class="bx bx-show"></i> 10.6M</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="line"></div>
+        <nav style="padding-top: 10px; padding-bottom: 10px; color: #000; ">
+            <h4 style="padding-left: 90px;  font-weight: 150;">Notice</h4>
+            <a style="padding-left: 20px;  font-weight: 100;">❯</a>
+            <h4 style="padding-left: 20px;  font-weight: 100;">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</h4>
+        </nav>
+        <div class="line"></div>
+        <nav style="justify-content: center; margin-top: 50px;padding-bottom: 50px;">
+            <div>
+                <a href="#" class="iconn"><i class='bx bxl-facebook-circle'></i></a>
+                <a href=" #" class="icon"><i class='bx bxl-youtube'></i></a>
+                <a href=" #" class="icon"><i class='bx bxl-instagram-alt'></i></i></a>
+            </div>
+        </nav>
+    
+        <nav style="justify-content: center;padding-bottom: 50px;">
+            <div>
+                <a href="feedback.html" class="feedback">| Feedback |</i></a>
+            </div>
+        </nav>
+    </footer>
+
+    <script>
+        // Example JavaScript for interactivity
+            document.querySelectorAll('.card').forEach(card => {
+                card.addEventListener('click', () => {
+                    alert(`You clicked on ${card.querySelector('h3').textContent}`);
+                });
+            });
+
+    </script>
+</body>
+
+</html>

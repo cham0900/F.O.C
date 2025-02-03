@@ -14,8 +14,9 @@ body {
     width: 100%;
     place-items: center;
     background: linear-gradient(to top, #9ca0ff, #9ccfff);
-    align-items: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
     /* background: linear-gradient(-135deg, #c850c0, #4158d0); */
 }
 
@@ -29,7 +30,7 @@ body {
     background: #498cf1;
     border-radius: 15px;
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
-    margin-top: -50px;
+    
     align-items: center;
 }
 
@@ -170,9 +171,12 @@ form .signup-link a:hover {
     transition: all 0.25s ease;
     padding: 4.7px 5px;
     display: flex;
-    margin-left: -300px;
-    margin-top: -1px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
     text-align: center;
+    align-items: center;
+    
 }
 
 .header-buttons i {
